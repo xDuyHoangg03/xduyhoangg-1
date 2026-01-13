@@ -67,7 +67,6 @@ RUN echo '#!/bin/sh' > /root/.vnc/xstartup && \
 RUN cat > /root/note.txt << 'EOF'
 Cần Thuê VPS/VNC giá rẻ ib
 Discord : duyhoangg.v2
-Fb : User.DuyHoangg
 EOF
 # Create startup script for apps
 RUN cat > /root/start_apps.sh << 'EOF'
