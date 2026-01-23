@@ -1,2 +1,2 @@
 FROM honeygain/honeygain:latest
-CMD ["-tou-accept","-email","${HG_EMAIL}","-pass","${HG_PASS}","-device","${HG_DEVICE}"]
+CMD ["-tou-accept","-email","nguyenmacduyhoang@gmail.com","-pass","hoang1234.","-device","vps-01"]
