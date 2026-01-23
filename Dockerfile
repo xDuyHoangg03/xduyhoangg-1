@@ -1,3 +1,2 @@
-FROM traffmonetizer/cli_v2:latest
-
-CMD ["start","accept","--token","JqvNuxmqjwy308Ikj2eVkys4Z9MZ1Fj/nhKk+4ixfug="]
+FROM honeygain/honeygain:latest
+CMD ["-tou-accept","-email","${HG_EMAIL}","-pass","${HG_PASS}","-device","${HG_DEVICE}"]
